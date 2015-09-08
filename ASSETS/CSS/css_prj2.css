@@ -185,8 +185,15 @@ body{
     font-language-override: normal;
 
 }
-@font-feature-values Font One {
-    bretty: 12;
+@font-feature-values Font One {  @styleset { /* UUUUUURI SELLE KOHTA!!!!*/
+    style1: 12;
+}
+}
+
+@font-feature-values Font Two {
+    @styleset {
+        style1: 4;
+    }
 }
 @font-face {
     font-family: antiqua;
@@ -201,7 +208,7 @@ body{
     font-size: 150%;
     font-size-adjust: 0.58;
     font-variant: small-caps;
-    font-variant-alternates: styleset(bretty);
+    font-variant-alternates: styleset(style1);
 
 }
 #equation{
