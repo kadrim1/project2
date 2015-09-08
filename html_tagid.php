@@ -200,8 +200,8 @@
 <samp>Tip: This tag( "< samp >" is <strong>not deprecated </strong>, but it is possible to achieve richer effect with CSS.
 </samp>
 
-<p>Metaani ehk metüülhüdriidi molekulvalem on CH<sub>4</sub></p>
-<p> Ühe tundmatuga ruutvõrrand on teisendatav kujule <b>ax<sup>2</sup>+ bx+ c= 0</b></p>
+<p id="methane">Metaani ehk metüülhüdriidi molekulvalem on CH<sub>4</sub></p><br>
+<p id="equation"> Ühe tundmatuga ruutvõrrand on teisendatav kujule <b>ax<sup>2</sup>+ bx+ c= 0</b></p>
 
 <table id="table">
     <caption>See ongi päris tabel.</caption>

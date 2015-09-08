@@ -156,6 +156,7 @@ body{
     text-combine-upright: digits 2;
     text-indent: 50px;
     white-space: nowrap;
+    font: 20px antiqua;
 
 
 }
@@ -170,6 +171,7 @@ body{
     text-decoration: overline;
     text-decoration-line: overline;
     text-decoration-color: #ff36ed;
+    font-family: "Times New Roman", Georgia, Serif;
 }
 #heading5{
     word-spacing: 30px;
@@ -177,6 +179,41 @@ body{
     text-decoration: underline;
     text-underline-position: below;
     text-decoration-style: double;
+    font-family: antiqua;
+    font-feature-settings: unset;
+    font-kerning: initial;
+    font-language-override: normal;
+
+}
+@font-feature-values Font One {
+    bretty: 12;
+}
+@font-face {
+    font-family: antiqua;
+    src: url("../fonts/Chantelli_Antiqua.ttf");
+}
+@font-face {
+    font-family: dumb;
+    src: url("../fonts/2Dumb.ttf");
+}
+#methane{
+    font-family: dumb;
+    font-size: 150%;
+    font-size-adjust: 0.58;
+    font-variant: small-caps;
+    font-variant-alternates: styleset(bretty);
+
+}
+#equation{
+    font-stretch: expanded;
+    font-style: oblique;
+    font-synthesis: style;
+    font-variant-caps: all-small-caps;
+    font-variant-east-asian: ruby;
+    font-variant-ligatures: normal;
+    font-variant-numeric: slashed-zero;
+    font-variant-position: super;
+    font-weight: 700;
 }
 
 
