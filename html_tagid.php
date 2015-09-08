@@ -24,13 +24,13 @@
 <main>
     <article>
         <header>
-            <h1>See on jänku.</h1>
+            <h1>See on jänkuke.</h1>
             <p>Silmale vajutades saad <bdi> jänesesilma </bdi> devianarti, ninale vajutades saad jänkukese nina liigutuste seletuse..</p>
         </header>
     </article>
 
     <figure>
-        <img src="pictures/janku.gif" width="140" height="150" usemap="#bunny">
+        <img id="bunny_pic" src="pictures/janku.gif" width="140" height="150" usemap="#bunny">
         <figcaption>See on jänku.</figcaption>
     </figure>
 
@@ -43,6 +43,9 @@
         <h3>Küülik ehk kodujänes (Oryctolagus cuniculus) on jäneslaste sugukonda kuuluv imetaja.</h3>
     </aside>
 </main>
+<br>
+<br>
+<br>
 <div id="audio_div">
     <audio controls>
         <source src="audio/18 Lookin' Out My Back Door.mp3" type="audio/mpeg">
@@ -51,12 +54,12 @@
 </div>
 
 
-<h4>Sõna kirik on tagurpidi ka <bdo dir="rtl">kirik</bdo></h4>
-<h5>Aga minu nimi Kadri on tagurpidi <bdo dir="rtl">Kadri</bdo></h5>
+<h4 id="heading4">Sõna kirik on tagurpidi ka <bdo dir="rtl">kirik</bdo></h4>
+<h5 id="heading5">Aga minu nimi Kadri on tagurpidi <bdo dir="rtl">Kadri</bdo></h5>
 
 
 <h6><cite>„Varas“</cite> autor: Göran Tunströmi</h6>
-<blockquote cite="https://noiaelu.wordpress.com/2007/02/05/varas-varas-varas/">
+<blockquote id="quote" cite="https://noiaelu.wordpress.com/2007/02/05/varas-varas-varas/">
     Johan on kolmeteistkümnes, kasulaps kaltsakaperes, väike tõsine olend keset räppa, joomist, kaklusi, koduterrorit, nõrgamõistuslikke juhme sugulasi.
     <br>
     Peaaegu üksi, kui mitte arvestada onutütar Hedvigit, teist väikest tõsiduselast. Seltsilist, trööstijat, armastatut.
@@ -65,13 +68,15 @@
 <canvas id="myCanvas">See on minu canvas, kuid kahjuks puudub mul JS fail..</canvas>
 
 <code>See on arvutikood.</code>
-
+<input list="berries" name="berry">
 <datalist id="berries">
     <option value="Blueberry">
     <option value="Rasberry">
     <option value="Strawberry">
     <option value="Cherry">
 </datalist>
+<input type="submit">
+</form>
 
 <dl>
     <dt>Paber</dt>
@@ -88,8 +93,13 @@
 </details>
 
 <p>Defineerin <dfn>KÜ</dfn>- Korterühistu</p>
-
-<dialog open>Olen tulevikus kasulik kas hüpikakna või muu kasulikuna, et teistega suhelda. Jään teiste peale.</dialog>
+<div id="div_dialog">
+    <dialog id="dialog"open>Olen tulevikus kasulik kas hüpikakna või muu kasulikuna, et teistega suhelda. Jään teiste peale.</dialog>
+</div>
+<br>
+<br>
+<br>
+<dialog id="dialog2"open>Olen tulevikus kasulik kas hüpikakna või muu kasulikuna, et teistega suhelda. Jään teiste peale.</dialog>
 <br>
 <br>
 <br>
@@ -107,7 +117,7 @@
     </fieldset>
 </form>
 <section>
-    <footer>
+    <footer id="footer">
         <p><small>Made by: </small><i> <mark>Kats von Päts</mark></i></p>
     </footer>
 </section>
@@ -156,7 +166,7 @@
     </optgroup>
 </select><br><br>
 
-<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<form id="a_plus_b" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
     <label for="a">First number</label> +
     <label for="b">Second number</label> = Equals <br>
     <input type="number" id="a" value="0">
@@ -169,13 +179,15 @@
 
 </object>-->
 
-    <pre>
-        Nende "< pre >" tagide vahel
-            olev, jätab kõik samaks.
-            (tühikud    , reavahetused jne..)
-    </pre>
-<textarea rows="5">Laulan suurima hea meelega. Teie aga kuulake.</textarea>
-<progress value="15" max="100">15/100</progress>
+<pre id="pre">
+    Nende "< pre >" tagide vahel
+    olev, jätab kõik samaks.
+    (tühikud    , reavahetused jne..)
+</pre>
+<br>
+<br>
+<textarea id="txt_area" rows="5">Laulan suurima hea meelega. Teie aga kuulake.</textarea>
+<progress id="progress_bar" value="15" max="100">15/100</progress>
 
 <span id="only_span">Tarmo Amer kirjutab Delfis vabamüürlastest <wbr> <q>Inimene on kummaline olend — läbi kogu oma ajaloo <wbr> on ta toetunud müütidele ja nendest jõudu ammutanud, <wbr>teisalt aga imekspandava visadusega üritanud neid eitada, <wbr> purustada, paljastada, olematuks teha. <wbr>Võib-olla ongi Coelhol õigus, kui ta ütleb, et <wbr> me hävitame selle, mida armastame.</q></span>
 
@@ -191,7 +203,7 @@
 <p>Metaani ehk metüülhüdriidi molekulvalem on CH<sub>4</sub></p>
 <p> Ühe tundmatuga ruutvõrrand on teisendatav kujule <b>ax<sup>2</sup>+ bx+ c= 0</b></p>
 
-<table>
+<table id="table">
     <caption>See ongi päris tabel.</caption>
     <colgroup>
         <col span="2">
@@ -230,7 +242,7 @@
 
 <p>Joel on sündinud: <time datetime="2010-04-30 19:57">Vastlapäeval</time>.</p>
 
-<video controls>
+<video id="video" controls>
     <source src="video/Terminator 4.mp4" type="video/mp4">
     <track src="video/subs/subtitle.vtt" kind="subtitles" srclang="en" label="English">
 </video>
@@ -238,27 +250,27 @@
 <p>Kas sa oskad kirjutada sõna: apelsin? Või kirjutad selle kui <u>apelsiin?</u> </p>
 <p id="useful">Note: The HTML 5 specification reminds developers that other elements are almost always more appropriate than < u >.</p>
 <var>Kasulik variable.</var>
+<div id="lists">
+    <ul> Unordered list
+        <li>Unordered listi esimene liige
+            <ol>Ordered list
+                <li>Ordered listi esimene liige
+                </li>
+                <li> Ordered listi teine liige
+                </li>
+            </ol>
+        </li>
+        <li>Unordered listi teine liige
+            <ol>Ordered list
+                <li>Ordered listi esimene liige
+                </li>
 
-<ul> Unordered list
-    <li>Unordered listi esimene liige
-        <ol>Ordered list
-            <li>Ordered listi esimene liige
-            </li>
-            <li> Ordered listi teine liige
-            </li>
-        </ol>
-    </li>
-    <li>Unordered listi teine liige
-        <ol>Ordered list
-            <li>Ordered listi esimene liige
-            </li>
-
-            <li> Ordered listi teine liige
-            </li>
-        </ol>
-    </li>
-</ul>
-<ul>	Defines an unordered list
+                <li> Ordered listi teine liige
+                </li>
+            </ol>
+        </li>
+    </ul>
+</div>
 
 
 

@@ -1,3 +1,199 @@
+/*Ära unusta php failis kommentaari maha võtta <object data="audio/01 - Kukerpillid - Mis teed.mp3">*/
+
 body{
-    background-color:red;
+    color: #ffbe35;
+    background-color: black;
+
 }
+#footer{
+    background: greenyellow no-repeat center;
+}
+#bunny_pic:hover{
+    opacity:0.5;
+    clip: rect(0px,200px,500px,0px);
+    position: absolute;
+
+}
+#audio_div{
+    background-attachment: fixed;
+    background-image: url("../pictures/house.jpg");
+    background-position: center;
+    background-repeat: repeat;
+}
+#table{
+    background-clip: border-box;
+    border-style: solid;
+    border-radius:2px;
+    border: 6px double deepskyblue;
+    border-top: double;
+    border-width:6px;
+    border-top-color:cadetblue;
+    border-bottom: thick;
+    border-bottom-color:#ff56d7;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 2em;
+    border-top-style: double;
+    border-top-width: 25px;
+    border-bottom-style: double;
+    border-bottom-width: 25px;
+    border-color: #80dcf3 black #ff56d7;
+    border-left: ridge;
+    border-left-style: inset;
+    border-left-width: 1px;
+    border-left-color: #daff16;
+    border-right: ridge;
+    border-right-style: inset;
+    border-right-width: 1px;
+    border-right-color: #daff16;
+    box-decoration-break: clone;
+    box-shadow: 0 0 15px #ffff6f;
+
+}
+#selection{
+    background-image: url("../pictures/candy.jpg");
+    background-clip:content-box;
+    background-size: 60px 40px;
+}
+#dialog {
+    align-content: space-around;
+    flex: 1;
+    flex-basis: 80px;
+    flex-direction: row-reverse;
+    flex-flow: row-reverse wrap;
+    flex-grow: 7;
+    flex-shrink: 3;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    order: 1;
+
+}
+#div_dialog{
+    border-image: url("../pictures/border.png") 15 stretch;
+    border-image-outset: 1px;
+    border-image-repeat: repeat;
+    border-image-slice: 30;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    height:100px;
+    width: 700px;
+    background-color: #4ebfed;
+    margin-right: 40%;
+    margin-left: 23.5%;
+
+
+
+}
+#dialog2{
+    border-image-source: url("../pictures/border2.png");
+    border-image-width: 20px;
+}
+#lists{
+    bottom: 5px;
+    hanging-punctuation: none;
+
+}
+#progress_bar{
+    clear: right;
+    float:left;
+}
+#pre{
+
+    float:right;
+    clear: left;
+    display: inline;
+    vertical-align: text-bottom;
+}
+#a_plus_b{
+    background-color: #ffff6f;
+    color: #05071a;
+    border: 4px double lightgreen;
+    margin: 2cm 4cm 3cm 4cm;
+    margin-top: 2cm;
+    margin-right:4cm;
+    margin-bottom: 3cm;
+    margin-left: 4cm;
+    max-height: 150px;
+    max-width: 600px;
+    min-height: 30px;
+    min-width: 500px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 2cm 4cm 3cm 4cm;
+    padding-top: 1cm;
+    padding-right: 0.1cm;
+    padding-bottom: 1cm;
+    padding-left: 1cm ;
+    text-align: center;
+    text-align-last: center;
+
+
+}
+#video{
+    height: 300px;
+    width: 300px;
+    left: 345px;
+    position: absolute;
+    right: auto;
+    top: auto;
+    visibility: visible;
+    z-index:1;
+}
+#txt_area{
+    overflow: scroll;
+    vertical-align: text-bottom;
+    align-content: space-around;
+    word-break: keep-all;
+}
+#quote{
+    hyphens: auto;
+    line-break: normal;
+    letter-spacing: -1px;
+    overflow-wrap: normal;
+    tab-size: 4;
+    text-combine-upright: digits 2;
+    text-indent: 50px;
+    white-space: nowrap;
+
+
+}
+#heading4{
+    text-shadow: 0 2px #0b7e2d;
+    letter-spacing: -2px;
+    line-break: normal;
+    line-height: 190%;
+    text-transform: uppercase;
+    text-align: justify;
+    text-justify: inter-word;
+    text-decoration: overline;
+    text-decoration-line: overline;
+    text-decoration-color: #ff36ed;
+}
+#heading5{
+    word-spacing: 30px;
+    word-wrap: break-word;
+    text-decoration: underline;
+    text-underline-position: below;
+    text-decoration-style: double;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
