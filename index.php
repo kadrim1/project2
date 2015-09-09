@@ -198,7 +198,7 @@
 <p id="methane">Metaani ehk metüülhüdriidi molekulvalem on CH<sub>4</sub></p><br>
 <p id="equation"> Ühe tundmatuga ruutvõrrand on teisendatav kujule <b>ax<sup>2</sup>+ bx+ c= 0</b></p>
 
-<table id="table">
+<table id="table" border="2px">
     <caption>See ongi päris tabel.</caption>
     <colgroup>
         <col span="2">
@@ -234,9 +234,32 @@
     </tr>
     </tbody>
 </table>
+<br>
+<table id="table2" border="4px">
+    <tr>
+        <th>See on tabel.</th>
+    </tr>
+    <tr>
+        <td>
+            1. esimene
+        </td>
+        <td>
+            1. teine
+        </td>
+    </tr>
+    <tr>
+        <td>
+            2. esimene
+        </td>
+        <td>
+            2. teine
+        </td>
+    </tr>
+</table>
 
 <p>Joel on sündinud: <time datetime="2010-04-30 19:57">Vastlapäeval</time>.</p>
-
+<br>
+<div class="heading1"><h1>Blablah</h1></div>
 <video id="video" controls>
     <source src="video/Terminator 4.mp4" type="video/mp4">
     <track src="video/subs/subtitle.vtt" kind="subtitles" srclang="en" label="English">
@@ -249,7 +272,7 @@
     <ul> Unordered list
         <li>Unordered listi esimene liige
             <ol>Ordered list
-                <li>Ordered listi esimene liige
+                <li id="list_item">Ordered listi esimene liige
                 </li>
                 <li> Ordered listi teine liige
                 </li>

@@ -24,7 +24,6 @@ body{
     background-clip: border-box;
     border-style: solid;
     border-radius:2px;
-    border: 6px double deepskyblue;
     border-top: double;
     border-width:6px;
     border-top-color:cadetblue;
@@ -34,21 +33,33 @@ body{
     border-bottom-right-radius: 1em;
     border-top-left-radius: 1em;
     border-top-right-radius: 2em;
-    border-top-style: double;
-    border-top-width: 25px;
     border-bottom-style: double;
-    border-bottom-width: 25px;
-    border-color: #80dcf3 black #ff56d7;
     border-left: ridge;
-    border-left-style: inset;
-    border-left-width: 1px;
     border-left-color: #daff16;
     border-right: ridge;
-    border-right-style: inset;
-    border-right-width: 1px;
     border-right-color: #daff16;
     box-decoration-break: clone;
     box-shadow: 0 0 15px #ffff6f;
+    border-collapse:collapse;
+    caption-side: bottom;
+
+
+}
+#table2{
+    border: double deepskyblue;
+    border-right-style: inset;
+    border-left-style: inset;
+    border-color: #80dcf3 #fffe14 #ff56d7;
+    border-bottom-width: 25px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: double;
+    border-top-width: 25px;
+    border-collapse: separate;
+    border-spacing: 10px 50px;
+    empty-cells: hide;
+    table-layout: fixed;
+
 
 }
 #selection{
@@ -93,7 +104,10 @@ body{
 #lists{
     bottom: 5px;
     hanging-punctuation: none;
-
+}
+#list_item{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
 }
 #progress_bar{
     clear: right;
@@ -171,7 +185,7 @@ body{
     text-decoration: overline;
     text-decoration-line: overline;
     text-decoration-color: #ff36ed;
-    font-family: "Times New Roman", Georgia, Serif;
+    font-family: "Times New Roman", Serif;
 }
 #heading5{
     word-spacing: 30px;
@@ -183,7 +197,6 @@ body{
     font-feature-settings: unset;
     font-kerning: initial;
     font-language-override: normal;
-
 
 }
 @font-face {
@@ -200,7 +213,8 @@ body{
     font-size-adjust: 0.58;
     font-variant: small-caps;
     font-variant-alternates: styleset(style1);
-
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
 #equation{
     font-stretch: expanded;
@@ -219,6 +233,11 @@ body{
 #lookin:hover{
     opacity: 1;
 }
+.heading1{
+    -webkit-writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+}
+
 
 
 
