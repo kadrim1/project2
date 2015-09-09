@@ -42,7 +42,7 @@ body{
     box-shadow: 0 0 15px #ffff6f;
     border-collapse:collapse;
     caption-side: bottom;
-
+    cursor: col-resize;
 
 }
 #table2{
@@ -101,10 +101,48 @@ body{
     border-image-source: url("../pictures/border2.png");
     border-image-width: 20px;
 }
-#lists{
-    bottom: 5px;
-    hanging-punctuation: none;
+
+/* Counter */
+#try_counter h1 {
+    counter-reset: subsection;
 }
+
+#try_counter h1:before {
+    counter-increment: section;
+    content: "Section " counter(section) ". ";
+}
+
+#try_counter h2:before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
+}
+
+#try_counter h3:before {
+    counter-increment: section;
+    content: counter(section) "." counter(subsection) " ";
+}
+
+#lists{
+    height: 300px;
+    width: 300px;
+    bottom: 5px;
+    hanging-punctuation: first; /*vale koha peal, listiga ei saa kasutada*/
+    border: 3px solid #ff6e58;
+    list-style: square;
+    list-style-image: url("../pictures/orange_circ.png");
+    list-style-position: inside;
+}
+
+#unord {
+    list-style-type: armenian;
+    color: #5ff7c9;
+}
+
+#ord {
+    list-style-type: katakana;
+    color: #ff56d7;
+}
+
 #list_item{
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -119,6 +157,7 @@ body{
     clear: left;
     display: inline;
     vertical-align: text-bottom;
+    counter-increment: none;
 }
 #a_plus_b{
     background-color: #ffff6f;
@@ -171,7 +210,6 @@ body{
     text-indent: 50px;
     white-space: nowrap;
     font: 20px antiqua;
-
 
 }
 #heading4{
@@ -233,9 +271,136 @@ body{
 #lookin:hover{
     opacity: 1;
 }
-.heading1{
+
+#add_head1 {
+    border: 4px groove lavenderblush;
+    background-color: #daff16;
+    color: #05071a;
+    width: 400px;
+    -webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+    transition: width 2s;
+    transition-property: width;
+    -webkit-transition-duration: 4s;
+    transition-duration: 4s;
+    -webkit-transition-timing-function: ease; /* Safari and Chrome */
+    transition-timing-function: ease;
+    -webkit-transition-delay: 2s; /* Safari */
+    transition-delay: 2s;
+
+}
+
+.divis {
+
+    box-sizing: border-box;
+    border: double burlywood;
+    height: 100px;
+    width: 600px;
+}
+
+#samp {
+    border: double burlywood;
+    position: relative;
+    height: 100px;
+    width: 600px;
+    margin: 50px;
+    padding: 10px;
+}
+
+#ruby {
+
+    position: relative;
+    height: 100px;
+    width: 600px;
+    margin: 140px;
+    padding: 10px;
+}
+
+#add_head1:hover {
+    width: 160px;
+}
+
+#paragr {
+    border: 5px double #e0adff;
+    position: relative;
+    height: 160px;
+    width: 160px;
+    margin: 50px;
+    padding: 10px;
+    background-color: #6cddff;
+    -webkit-transform: rotateY(180deg); /* Chrome, Safari, Opera */
+    transform: rotateY(180deg);
+    color: #ff6206;
+    backface-visibility: visible;
+    -webkit-perspective: 150px; /* Chrome, Safari, Opera */
+    -webkit-perspective-origin: 10% 10%; /* Chrome, Safari, Opera */
+    perspective: 150px;
+    perspective-origin: 10% 10%;
+    -ms-transform-origin: 50% 40%; /* IE 9 */
+    -webkit-transform-origin: 50% 40%; /* Chrome, Safari, Opera */
+    transform-origin: 50% 40%;
+    -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
+    transform-style: flat;
+    box-sizing: border-box;
+}
+
+.heading1 {
+    height: 150px;
+    width: 50px;
+    border: dotted greenyellow;
     -webkit-writing-mode: vertical-rl;
     text-orientation: sideways-right;
+    -webkit-animation: infinite;
+    -o-animation: infinite;
+    animation: infinite;
+    -webkit-animation-name: mymove; /* Chrome, Safari, Opera */
+    animation-name: mymove;
+    position: relative;
+    margin-left: 300px;
+    webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: backwards; /* Chrome, Safari, Opera */
+    animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: 3;
+    animation-iteration-count: 3;
+    -webkit-animation-play-state: running; /* Chrome, Safari, Opera */
+    animation-play-state: running;
+    -webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
+    animation-timing-function: ease;
+
+}
+
+h1:before {
+    content: open-quote;
+}
+
+h1:after {
+    content: close-quote;
+}
+
+@-webkit-keyframes mymove {
+
+    from {
+        right: 160px;
+    }
+    to {
+        right: 200px;
+    }
+
+}
+
+@keyframes mymove {
+
+    from {
+        left: 0;
+    }
+    to {
+        right: 200px;
+    }
+
 }
 
 

@@ -186,14 +186,26 @@
 
 <span id="only_span">Tarmo Amer kirjutab Delfis vabamüürlastest <wbr> <q>Inimene on kummaline olend — läbi kogu oma ajaloo <wbr> on ta toetunud müütidele ja nendest jõudu ammutanud, <wbr>teisalt aga imekspandava visadusega üritanud neid eitada, <wbr> purustada, paljastada, olematuks teha. <wbr>Võib-olla ongi Coelhol õigus, kui ta ütleb, et <wbr> me hävitame selle, mida armastame.</q></span>
 
-
-<ruby>
-    漢 <rt><rp>(</rp>ゴシック体<rp>)</rp></rt>
-</ruby>
 <br>
-<p><s>Täna on reede.</s> Ei, täna on ikka teisipäev.</p>
-<samp>Tip: This tag( "< samp >" is <strong>not deprecated </strong>, but it is possible to achieve richer effect with CSS.
-</samp>
+<br>
+
+<div class="divis">
+    <ruby id="ruby">
+    漢 <rt><rp>(</rp>ゴシック体<rp>)</rp></rt>
+    </ruby>
+</div>
+
+<div id="add_head1">
+    <h1>Lisame pealkirja</h1>
+
+</div>
+<br>
+
+<div id="paragr"><p><s>Täna on reede.</s> Ei, täna on ikka teisipäev.</p></div>
+
+<div class="divis" id="samp"><samp>Tip: This tag( "< samp >" is <strong>not deprecated </strong>, but it is possible to
+        achieve richer effect with CSS.
+    </samp></div>
 
 <p id="methane">Metaani ehk metüülhüdriidi molekulvalem on CH<sub>4</sub></p><br>
 <p id="equation"> Ühe tundmatuga ruutvõrrand on teisendatav kujule <b>ax<sup>2</sup>+ bx+ c= 0</b></p>
@@ -289,7 +301,21 @@
         </li>
     </ul>
 </div>
+<ul id="unord">
+    <li>
+        Tere
+    </li>
+    <li>kallis</li>
+</ul>
+<ol id="ord">
+    <li>maailm</li>
+    <li>hea</li>
+</ol>
+<div id="try_counter"><h1>Head 1</h1>
 
+    <h2>Head 2</h2>
+
+    <h3>Head 3</h3></div>
 
 
 
