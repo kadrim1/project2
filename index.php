@@ -47,7 +47,7 @@
 <br>
 <br>
 <div id="audio_div">
-    <audio controls>
+    <audio id="lookin" controls>
         <source src="audio/18 Lookin' Out My Back Door.mp3" type="audio/mpeg">
 
     </audio>
@@ -173,11 +173,6 @@
     +<input type="number" id="b" value="0">
     =<output name="x" for="ab"></output>
 </form>
-
-<!--<object data="audio/01 - Kukerpillid - Mis teed.mp3">
-    <param name="autoplay" value="false">
-
-</object>-->
 
 <pre id="pre">
     Nende "< pre >" tagide vahel

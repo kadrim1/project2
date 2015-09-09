@@ -184,16 +184,7 @@ body{
     font-kerning: initial;
     font-language-override: normal;
 
-}
-@font-feature-values Font One {  @styleset { /* UUUUUURI SELLE KOHTA!!!!*/
-    style1: 12;
-}
-}
 
-@font-feature-values Font Two {
-    @styleset {
-        style1: 4;
-    }
 }
 @font-face {
     font-family: antiqua;
@@ -222,7 +213,12 @@ body{
     font-variant-position: super;
     font-weight: 700;
 }
-
+#lookin{
+    opacity: 0;
+}
+#lookin:hover{
+    opacity: 1;
+}
 
 
 
