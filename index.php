@@ -86,7 +86,11 @@
 </dl>
 
 <p>Arvad, et mu tuju on <del>hea</del> <ins>halb</ins>?</p>
-
+<p>The &lt;mark&gt; element is used to
+    <mark>highlight</mark>
+    text
+</p>
+<br>
 <details>
     <summary>Ava mind, kui tahad näha, mis siin sees on ;)</summary>
     <p> <em>Tüng!</em> Tegelikult pole ühtegi detaili.</p>
@@ -103,7 +107,9 @@
 <br>
 <br>
 <br>
-<embed src="pictures/blah.png" type="image/png"/>
+<embed id="embed" src="pictures/blah.png" type="image/png"/>
+<img id="embed2" src="pictures/blah.png" type="image/png" width="400px"/>
+<img id="embed3" src="pictures/blah.png" type="image/png" width="400px"/>
 
 
 <form>
@@ -116,11 +122,7 @@
         <button type="button">Edasi</button>
     </fieldset>
 </form>
-<section>
-    <footer id="footer">
-        <p><small>Made by: </small><i> <mark>Kats von Päts</mark></i></p>
-    </footer>
-</section>
+
 <iframe src="https://noiaelu.wordpress.com/2007/02/05/varas-varas-varas/"></iframe>
 
 <form>
@@ -157,7 +159,7 @@
 <br>
 <br>
 <noscript>See on brauserile, mis ei toeta scripti</noscript>
-<object data="pictures/blah3.png" type="image/png"></object>
+<img id="blah2" src="pictures/blah3.png" type="image/png"/>
 
 <select id="selection">
     <optgroup label="Maiused">
@@ -184,7 +186,19 @@
 <textarea id="txt_area" rows="5">Laulan suurima hea meelega. Teie aga kuulake.</textarea>
 <progress id="progress_bar" value="15" max="100">15/100</progress>
 
-<span id="only_span">Tarmo Amer kirjutab Delfis vabamüürlastest <wbr> <q>Inimene on kummaline olend — läbi kogu oma ajaloo <wbr> on ta toetunud müütidele ja nendest jõudu ammutanud, <wbr>teisalt aga imekspandava visadusega üritanud neid eitada, <wbr> purustada, paljastada, olematuks teha. <wbr>Võib-olla ongi Coelhol õigus, kui ta ütleb, et <wbr> me hävitame selle, mida armastame.</q></span>
+<div id="only_span"><h1>Tarmo Amer kirjutab Delfis vabamüürlastest</h1>
+    <wbr>
+    <q>Inimene on kummaline olend — läbi kogu oma ajaloo
+        <wbr>
+        on ta toetunud müütidele ja nendest jõudu ammutanud,
+        <wbr>
+        teisalt aga imekspandava visadusega üritanud neid eitada,
+        <wbr>
+        purustada, paljastada, olematuks teha.
+        <wbr>
+        Võib-olla ongi Coelhol õigus, kui ta ütleb, et
+        <wbr>
+        me hävitame selle, mida armastame.</q></div>
 
 <br>
 <br>
@@ -277,7 +291,7 @@
     <track src="video/subs/subtitle.vtt" kind="subtitles" srclang="en" label="English">
 </video>
 
-<p>Kas sa oskad kirjutada sõna: apelsin? Või kirjutad selle kui <u>apelsiin?</u> </p>
+<p id="apels">Kas sa oskad kirjutada sõna: apelsin? Või kirjutad selle kui <u>apelsiin?</u></p>
 <p id="useful">Note: The HTML 5 specification reminds developers that other elements are almost always more appropriate than < u >.</p>
 <var>Kasulik variable.</var>
 <div id="lists">
@@ -316,9 +330,20 @@
     <h2>Head 2</h2>
 
     <h3>Head 3</h3></div>
-
-
+<marquee id="marq" direction="down">
+    <marquee behavior="alternate"><img src="pictures/love.png"/></marquee>
+</marquee>
+<section>
+    <footer id="footer">
+        <p>
+            <small>Made by:</small>
+            <i>
+                <mark>Kats von Päts</mark>
+            </i></p>
+    </footer>
+</section>
 
 </body>
+
 
 </html>
