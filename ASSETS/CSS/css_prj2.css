@@ -3,7 +3,6 @@
 body{
     color: #ffbe35;
     background-color: black;
-
 }
 
 @media print {
@@ -17,6 +16,7 @@ body{
         page-break-inside: avoid;
     }
 }
+
 #footer{
     background: greenyellow no-repeat center;
     page-break-after: always;
@@ -25,7 +25,6 @@ body{
 #embed {
     -webkit-filter: contrast(1) brightness(1);
     filter: contrast(1) brightness(1);
-
 }
 
 #embed2 {
@@ -36,10 +35,8 @@ body{
 }
 
 #marq {
-
     width: 1200px;
     height: 500px;
-
 }
 
 #marq img {
@@ -54,25 +51,23 @@ body{
     mask-type: inherit;
 }
 
-#blah2 {
-
-}
-
 q {
     quotes: "«" "»";
 }
-#bunny_pic:hover{
+
+#bunny_pic:hover {
     opacity:0.5;
     clip: rect(0px,200px,500px,0px);
     position: absolute;
-
 }
+
 #audio_div{
     background-attachment: fixed;
     background-image: url("../pictures/house.jpg");
     background-position: center;
     background-repeat: repeat;
 }
+
 #table{
     background-clip: border-box;
     border-style: solid;
@@ -96,8 +91,8 @@ q {
     border-collapse:collapse;
     caption-side: bottom;
     cursor: col-resize;
-
 }
+
 #table2{
     border: double deepskyblue;
     border-right-style: inset;
@@ -112,14 +107,14 @@ q {
     border-spacing: 10px 50px;
     empty-cells: hide;
     table-layout: fixed;
-
-
 }
+
 #selection{
     background-image: url("../pictures/candy.jpg");
     background-clip:content-box;
     background-size: 60px 40px;
 }
+
 #dialog {
     align-content: space-around;
     flex: 1;
@@ -131,8 +126,8 @@ q {
     flex-wrap: wrap;
     justify-content: space-around;
     order: 1;
-
 }
+
 #div_dialog{
     border-image: url("../pictures/border.png") 15 stretch;
     border-image-outset: 1px;
@@ -146,10 +141,8 @@ q {
     background-color: #4ebfed;
     margin-right: 40%;
     margin-left: 23.5%;
-
-
-
 }
+
 #dialog2{
     border-image-source: url("../pictures/border2.png");
     border-image-width: 20px;
@@ -204,10 +197,12 @@ q {
     writing-mode: vertical-rl;
     text-orientation: upright;
 }
+
 #progress_bar{
     clear: right;
     float:left;
 }
+
 #pre{
 
     float:right;
@@ -216,6 +211,7 @@ q {
     vertical-align: text-bottom;
     counter-increment: none;
 }
+
 #a_plus_b{
     background-color: #ffff6f;
     color: #05071a;
@@ -238,9 +234,8 @@ q {
     padding-left: 1cm ;
     text-align: center;
     text-align-last: center;
-
-
 }
+
 #video{
     height: 300px;
     width: 300px;
@@ -252,12 +247,14 @@ q {
     z-index:1;
     margin-top: 150px;
 }
+
 #txt_area{
     overflow: scroll;
     vertical-align: text-bottom;
     align-content: space-around;
     word-break: keep-all;
 }
+
 #quote{
     hyphens: auto;
     line-break: normal;
@@ -268,9 +265,8 @@ q {
     text-indent: 50px;
     white-space: nowrap;
     font: 20px antiqua;
-
-
 }
+
 #heading4{
     text-shadow: 0 2px #0b7e2d;
     letter-spacing: -2px;
@@ -310,13 +306,13 @@ q {
     -webkit-column-width: 100px; /* Chrome, Safari, Opera */
     -moz-column-width: 100px; /* Firefox */
     column-width: 100px;
-
 }
 
 #only_span h1 {
     -webkit-column-span: 10; /* Chrome, Safari, Opera */
     column-span: all;
 }
+
 #heading5{
     word-spacing: 30px;
     word-wrap: break-word;
@@ -327,16 +323,18 @@ q {
     font-feature-settings: unset;
     font-kerning: initial;
     font-language-override: normal;
-
 }
+
 @font-face {
     font-family: antiqua;
     src: url("../fonts/Chantelli_Antiqua.ttf");
 }
+
 @font-face {
     font-family: dumb;
     src: url("../fonts/2Dumb.ttf");
 }
+
 #methane{
     font-family: dumb;
     font-size: 150%;
@@ -346,6 +344,7 @@ q {
     direction: rtl;
     unicode-bidi: bidi-override;
 }
+
 #equation{
     font-stretch: expanded;
     font-style: oblique;
@@ -357,9 +356,11 @@ q {
     font-variant-position: super;
     font-weight: 700;
 }
+
 #lookin{
     opacity: 0;
 }
+
 #lookin:hover{
     opacity: 1;
 }
@@ -378,11 +379,9 @@ q {
     transition-timing-function: ease;
     -webkit-transition-delay: 2s; /* Safari */
     transition-delay: 2s;
-
 }
 
 .divis {
-
     box-sizing: border-box;
     border: double burlywood;
     height: 100px;
@@ -409,7 +408,6 @@ q {
     width: 600px;
     margin: 140px;
     padding: 10px;
-
 }
 
 #add_head1:hover {
@@ -479,7 +477,6 @@ q {
     animation-play-state: running;
     -webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
     animation-timing-function: ease;
-
 }
 
 h1:before {
@@ -491,25 +488,21 @@ h1:after {
 }
 
 @-webkit-keyframes mymove {
-
     from {
         right: 160px;
     }
     to {
         right: 200px;
     }
-
 }
 
 @keyframes mymove {
-
     from {
         left: 0;
     }
     to {
         right: 200px;
     }
-
 }
 
 

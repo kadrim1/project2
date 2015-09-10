@@ -12,6 +12,7 @@
         HTML tagid.
     </title>
 </head>
+
 <body>
 
 <address>
@@ -20,7 +21,9 @@
     <a href="http://khk.ee/"><abbr title="Tartu Kutsehariduskeskus">TKHK</abbr></a><br>
     Tartu, Eesti<br>
 </address>
+
 <hr>
+
 <main>
     <article>
         <header>
@@ -38,14 +41,18 @@
         <area shape="circle" coords="95,25,10" href="http://rabbiteyes.deviantart.com/" alt="eye">
         <area shape="circle" coords="60,46,10" href="http://language.rabbitspeak.com/follow-my-nose/" alt="nose">
     </map>
+
     <aside>
         <h2>Küüliku keskmine eluiga on 5-8 aastat ning eluea pikkust saab pikendada küüliku steriliseerimise/kastreerimise teel.</h2>
         <h3>Küülik ehk kodujänes (Oryctolagus cuniculus) on jäneslaste sugukonda kuuluv imetaja.</h3>
     </aside>
+
 </main>
+
 <br>
 <br>
 <br>
+
 <div id="audio_div">
     <audio id="lookin" controls>
         <source src="audio/18 Lookin' Out My Back Door.mp3" type="audio/mpeg">
@@ -53,12 +60,12 @@
     </audio>
 </div>
 
-
 <h4 id="heading4">Sõna kirik on tagurpidi ka <bdo dir="rtl">kirik</bdo></h4>
+
 <h5 id="heading5">Aga minu nimi Kadri on tagurpidi <bdo dir="rtl">Kadri</bdo></h5>
 
-
 <h6><cite>„Varas“</cite> autor: Göran Tunströmi</h6>
+
 <blockquote id="quote" cite="https://noiaelu.wordpress.com/2007/02/05/varas-varas-varas/">
     Johan on kolmeteistkümnes, kasulaps kaltsakaperes, väike tõsine olend keset räppa, joomist, kaklusi, koduterrorit, nõrgamõistuslikke juhme sugulasi.
     <br>
@@ -68,7 +75,9 @@
 <canvas id="myCanvas">See on minu canvas, kuid kahjuks puudub mul JS fail..</canvas>
 
 <code>See on arvutikood.</code>
+
 <input list="berries" name="berry">
+
 <datalist id="berries">
     <option value="Blueberry">
     <option value="Rasberry">
@@ -76,6 +85,7 @@
     <option value="Cherry">
 </datalist>
 <input type="submit">
+
 </form>
 
 <dl>
@@ -86,31 +96,40 @@
 </dl>
 
 <p>Arvad, et mu tuju on <del>hea</del> <ins>halb</ins>?</p>
+
 <p>The &lt;mark&gt; element is used to
     <mark>highlight</mark>
     text
 </p>
+
 <br>
+
 <details>
     <summary>Ava mind, kui tahad näha, mis siin sees on ;)</summary>
     <p> <em>Tüng!</em> Tegelikult pole ühtegi detaili.</p>
 </details>
 
 <p>Defineerin <dfn>KÜ</dfn>- Korterühistu</p>
+
 <div id="div_dialog">
     <dialog id="dialog"open>Olen tulevikus kasulik kas hüpikakna või muu kasulikuna, et teistega suhelda. Jään teiste peale.</dialog>
 </div>
-<br>
-<br>
-<br>
-<dialog id="dialog2"open>Olen tulevikus kasulik kas hüpikakna või muu kasulikuna, et teistega suhelda. Jään teiste peale.</dialog>
-<br>
-<br>
-<br>
-<embed id="embed" src="pictures/blah.png" type="image/png"/>
-<img id="embed2" src="pictures/blah.png" type="image/png" width="400px"/>
-<img id="embed3" src="pictures/blah.png" type="image/png" width="400px"/>
 
+<br>
+<br>
+<br>
+
+<dialog id="dialog2"open>Olen tulevikus kasulik kas hüpikakna või muu kasulikuna, et teistega suhelda. Jään teiste peale.</dialog>
+
+<br>
+<br>
+<br>
+
+<embed id="embed" src="pictures/blah.png" type="image/png"/>
+
+<img id="embed2" src="pictures/blah.png" type="image/png" width="400px"/>
+
+<img id="embed3" src="pictures/blah.png" type="image/png" width="400px"/>
 
 <form>
     <fieldset>
@@ -131,10 +150,12 @@
     Vaata kui turvaline: <keygen name="security">
 </form>
 
-
 <kbd>Keyboard input</kbd>
+
 <br>
+
 <label for="radiobutton">Proovi radiobutton</label>
+
 <input type="radio" name="button" id="radiobutton" value="button"><br>
 
 
@@ -142,8 +163,8 @@
     <menuitem label="Feisbuuk" icon="pictures/FB.jpg" onclick="window.open('//facebook.com/sharer/sharer.php?u=' + window.location.href);">
     </menuitem>
 </menu>
-<meter value="0.95">95%</meter>
 
+<meter value="0.95">95%</meter>
 
 <nav>
     <a href="/html/">HTML</a> |
@@ -156,9 +177,12 @@
 <script>
     document.write("Scripti kiri")
 </script>
+
 <br>
 <br>
+
 <noscript>See on brauserile, mis ei toeta scripti</noscript>
+
 <img id="blah2" src="pictures/blah3.png" type="image/png"/>
 
 <select id="selection">
@@ -181,9 +205,12 @@
     olev, jätab kõik samaks.
     (tühikud    , reavahetused jne..)
 </pre>
+
 <br>
 <br>
+
 <textarea id="txt_area" rows="5">Laulan suurima hea meelega. Teie aga kuulake.</textarea>
+
 <progress id="progress_bar" value="15" max="100">15/100</progress>
 
 <div id="only_span"><h1>Tarmo Amer kirjutab Delfis vabamüürlastest</h1>
@@ -198,49 +225,74 @@
         <wbr>
         Võib-olla ongi Coelhol õigus, kui ta ütleb, et
         <wbr>
-        me hävitame selle, mida armastame.</q></div>
+        me hävitame selle, mida armastame.</q>
+</div>
 
 <br>
 <br>
 
 <div class="divis">
-    <ruby id="ruby">
-    漢 <rt><rp>(</rp>ゴシック体<rp>)</rp></rt>
+    <ruby id="ruby">漢
+        <rt>
+            <rp>(
+            </rp>
+            ゴシック体
+            <rp>)
+            </rp>
+        </rt>
     </ruby>
 </div>
 
 <div id="add_head1">
     <h1>Lisame pealkirja</h1>
-
 </div>
+
 <br>
 
 <div id="paragr"><p><s>Täna on reede.</s> Ei, täna on ikka teisipäev.</p></div>
 
-<div class="divis" id="samp"><samp>Tip: This tag( "< samp >" is <strong>not deprecated </strong>, but it is possible to
+<div class="divis" id="samp">
+    <samp>Tip: This tag( "< samp >" is
+        <strong>not deprecated
+        </strong>, but it is possible to
         achieve richer effect with CSS.
-    </samp></div>
+    </samp>
+</div>
 
-<p id="methane">Metaani ehk metüülhüdriidi molekulvalem on CH<sub>4</sub></p><br>
-<p id="equation"> Ühe tundmatuga ruutvõrrand on teisendatav kujule <b>ax<sup>2</sup>+ bx+ c= 0</b></p>
+<p id="methane">Metaani ehk metüülhüdriidi molekulvalem on CH
+    <sub>4
+    </sub>
+</p>
+
+<br>
+
+<p id="equation"> Ühe tundmatuga ruutvõrrand on teisendatav kujule
+    <b>ax
+        <sup>2
+        </sup>+ bx+ c= 0
+    </b>
+</p>
 
 <table id="table" border="2px">
     <caption>See ongi päris tabel.</caption>
+
     <colgroup>
         <col span="2">
     </colgroup>
-    <thead>
 
+    <thead>
     <tr>
         <th>See on tabel.</th>
     </tr>
     </thead>
+
     <tfoot>
     <tr>
         <td>Tabeli</td>
         <td>jalg</td>
     </tr>
     </tfoot>
+
     <tbody>
     <tr>
         <td>
@@ -259,8 +311,11 @@
         </td>
     </tr>
     </tbody>
+
 </table>
+
 <br>
+
 <table id="table2" border="4px">
     <tr>
         <th>See on tabel.</th>
@@ -283,17 +338,31 @@
     </tr>
 </table>
 
-<p>Joel on sündinud: <time datetime="2010-04-30 19:57">Vastlapäeval</time>.</p>
+<p>Joel on sündinud:
+    <time datetime="2010-04-30 19:57">Vastlapäeval
+    </time>
+    .
+</p>
+
 <br>
-<div class="heading1"><h1>Blablah</h1></div>
+
+<div class="heading1">
+    <h1>Blablah</h1>
+</div>
+
 <video id="video" controls>
     <source src="video/Terminator 4.mp4" type="video/mp4">
     <track src="video/subs/subtitle.vtt" kind="subtitles" srclang="en" label="English">
 </video>
 
-<p id="apels">Kas sa oskad kirjutada sõna: apelsin? Või kirjutad selle kui <u>apelsiin?</u></p>
+<p id="apels">Kas sa oskad kirjutada sõna: apelsin? Või kirjutad selle kui
+    <u>apelsiin?</u>
+</p>
+
 <p id="useful">Note: The HTML 5 specification reminds developers that other elements are almost always more appropriate than < u >.</p>
+
 <var>Kasulik variable.</var>
+
 <div id="lists">
     <ul> Unordered list
         <li>Unordered listi esimene liige
@@ -325,14 +394,23 @@
     <li>maailm</li>
     <li>hea</li>
 </ol>
-<div id="try_counter"><h1>Head 1</h1>
+
+<div id="try_counter">
+
+    <h1>Head 1</h1>
 
     <h2>Head 2</h2>
 
-    <h3>Head 3</h3></div>
+    <h3>Head 3</h3>
+
+</div>
+
 <marquee id="marq" direction="down">
-    <marquee behavior="alternate"><img src="pictures/love.png"/></marquee>
+    <marquee behavior="alternate">
+        <img src="pictures/love.png"/>
+    </marquee>
 </marquee>
+
 <section>
     <footer id="footer">
         <p>
