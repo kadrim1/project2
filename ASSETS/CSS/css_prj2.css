@@ -66,6 +66,7 @@ q {
     background-image: url("../pictures/house.jpg");
     background-position: center;
     background-repeat: repeat;
+    background-origin: border-box;
 }
 
 #table{
@@ -448,6 +449,7 @@ q {
     -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
     transform-style: flat;
     box-sizing: border-box;
+
 }
 
 .heading1 {
