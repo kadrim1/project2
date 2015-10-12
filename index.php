@@ -213,7 +213,7 @@
 
 <progress id="progress_bar" value="15" max="100">15/100</progress>
 
-<div id="only_span"><h1>Tarmo Amer kirjutab Delfis vabamüürlastest</h1>
+<span id="only_span"><h1>Tarmo Amer kirjutab Delfis vabamüürlastest</h1>
     <wbr>
     <q>Inimene on kummaline olend — läbi kogu oma ajaloo
         <wbr>
@@ -226,7 +226,7 @@
         Võib-olla ongi Coelhol õigus, kui ta ütleb, et
         <wbr>
         me hävitame selle, mida armastame.</q>
-</div>
+</span>
 
 <br>
 <br>
